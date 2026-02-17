@@ -431,7 +431,13 @@ define Device/mono_gateway-dk
     kmod-rtc-pcf2127 \
     kmod-sfp \
     kmod-sfp-led \
-    kmod-leds-gpio
+    kmod-leds-gpio \
+    kmod-sched-cake \
+    kmod-sched-core \
+    kmod-ifb \
+    tc-tiny \
+    sqm-scripts \
+    luci-app-sqm
 endef
 TARGET_DEVICES += mono_gateway-dk
 
